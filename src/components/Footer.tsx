@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1">
-            <h3 className="text-2xl font-bold text-orange-400 mb-4">Savoria</h3>
+            <h3 className="text-2xl font-bold text-orange-400 mb-4">Decale</h3>
             <p className="text-gray-300 mb-4">
               Experience culinary excellence with our carefully crafted dishes made from the finest ingredients.
             </p>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-orange-400 mr-3" />
-                <span className="text-gray-300">123 Gourmet Street, City, ST 12345</span>
+                <span className="text-gray-300">Mogadisho Somalia</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-orange-400 mr-3" />
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-orange-400 mr-3" />
-                <span className="text-gray-300">info@savoria.com</span>
+                <span className="text-gray-300">info@decale.com</span>
               </div>
             </div>
           </div>
