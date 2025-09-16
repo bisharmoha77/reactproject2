@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section  className="relative    text-white py-20 lg:py-32">
+      {/* <section  className="relative    text-white py-20 lg:py-32">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -36,14 +36,35 @@ const Home: React.FC = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="relative bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d1/e4/1b/getlstd-property-photo.jpg?w=900&h=500&s=1')" }}>
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Overlay madow */}
+  
+  <div className="relative z-10 text-center text-white py-24 px-4">
+    <h1 className="text-4xl md:text-5xl font-bold">
+      Welcome to <span className="text-yellow-300">Decale Hotel</span>
+    </h1>
+    <p className="mt-4 text-lg md:text-xl">
+      Experience culinary excellence with our carefully crafted dishes made from the finest ingredients
+    </p>
+    <div className="mt-8 flex justify-center gap-4">
+      <button className="bg-white text-orange-500 font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-orange-100 transition">
+        View Our Menu
+      </button>
+      <button className="border border-white text-white font-semibold py-2 px-6 rounded-full hover:bg-white hover:text-black transition">
+        Make Reservation
+      </button>
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Savoria?
+              Why Choose Decale?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We're committed to providing an exceptional dining experience

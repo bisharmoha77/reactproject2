@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-orange-600">Cunto</span>
+              <span className="text-2xl font-bold text-orange-600">Decale</span>
             </Link>
           </div>
 
